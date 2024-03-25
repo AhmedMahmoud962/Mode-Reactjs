@@ -1,38 +1,66 @@
-.App {
+:root {
+  --body_background: #fff;
+  --body_header: burlywood;
+  --body_color: #000;
+  --body_border: burlywood;
+}
+
+[data-theme="dark"] {
+  --body_background: #282c34;
+  --body_header: rgb(111, 63, 0);
+  --body_color: #fff;
+  --body_border: rgb(111, 63, 0);
+  ;
+}
+
+* {
+  padding: 0;
+  margin: 0;
   text-align: center;
+  transition: all .3s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  background-color: var(--body_background);
+  color: var(--body_color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: var(--body_header);
+  color: var(--body_color);
+  height: 150px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0px 5px 17px var(--body_border);
+  padding: 0 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.posts {
+  padding: 10px;
+  border: 4px solid var(--body_border);
+  margin: 25px;
+  box-shadow: 0px 5px 17px var(--body_border);
+  color: var(--body_color);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fasel {
+  color: var(--body_border);
 }
+
+/* .tagbutton {
+  background-color: burlywood;
+  color: #fff;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 10px;
+  box-Shadow: 0px 5px 10px rgba(0, 0, 0, .4);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.tagbutton:hover {
+  background-color: rgb(220, 139, 34);
+} */
