@@ -11,7 +11,7 @@ function App() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         {/* Posts $ sidemenu container */}
         <div
-          style={{ width: "60%", display: "flex", justifyContent: "center" }}
+          style={{ width: "70%", display: "flex", justifyContent: "center" }}
         >
           {/* Posts container */}
           <div style={{ width: "80%" }}>
