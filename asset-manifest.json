@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mode-Reactjs/static/css/main.28ca27a8.css",
+    "main.js": "/Mode-Reactjs/static/js/main.edc1ffb4.js",
+    "static/media/Sun.svg": "/Mode-Reactjs/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/Mode-Reactjs/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/Mode-Reactjs/index.html",
+    "main.28ca27a8.css.map": "/Mode-Reactjs/static/css/main.28ca27a8.css.map",
+    "main.edc1ffb4.js.map": "/Mode-Reactjs/static/js/main.edc1ffb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28ca27a8.css",
+    "static/js/main.edc1ffb4.js"
+  ]
+}
